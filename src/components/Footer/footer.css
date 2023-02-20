@@ -1,0 +1,17 @@
+.app__footerOverplay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+}
+
+.app__footerOverplay-black {
+   height: 25%;
+   background: var(--color-black);
+}
+
+.app__footerOverplay-img{
+    height: 75%;
+}

@@ -1,0 +1,52 @@
+.app__newsletter{
+    background: var(--color-black);
+    padding: 2rem 4rem;
+    /* border: 0.5px solid var(--color-golden); */
+    border: 1px solid rgba(220, 202, 135, 0.2);
+}
+
+.app__newsletter-heading{
+    text-align: center;
+}
+
+.app__newsletter-input{
+    margin-top: 3rem;
+    flex-direction: row;
+}
+
+.app__newsletter-input input{
+    flex: 0.5;
+    border: 1px solid #F5EFDB;
+    background: var(--color-black);
+    color: var(--color-golden);
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    border-radius: 1px;
+    outline: none;
+    padding: 0.6rem ;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 750px) {
+    .app__newsletter-input{
+        flex-direction: column;
+    }
+
+    .app__newsletter-input input {
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+   .app__newsletter-heading h1{
+    font-size: 44px;
+    line-height: 80.2px;
+    letter-spacing: 0.03em;
+   }
+}
+
+
