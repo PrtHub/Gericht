@@ -5,7 +5,7 @@ import './find.css'
 
 const FindUs = () => {
   return (
-    <div className='app__bg app__wrapper section__padding'>
+    <div className='app__bg app__wrapper section__padding' id='contact'>
       <div className="app__wrapper_info">
        <SubHeading title="Contact"/>
        <h1 className='headtext__cormorant'>Find Us</h1>

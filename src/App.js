@@ -2,6 +2,7 @@ import './App.css';
 import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, Menu } from './containers';
 import { Navbar } from './components';
 
+
 function App() {
   return (
     <div className="App">
